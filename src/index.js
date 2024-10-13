@@ -6,12 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-  
+  body{
+    background-color:#202020;
+  }
 `
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <GlobalStyle />
     <App />
   </React.StrictMode>
 );
