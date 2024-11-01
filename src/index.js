@@ -5,10 +5,25 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createGlobalStyle } from 'styled-components';
 
+
 const GlobalStyle = createGlobalStyle`
-  body{
-    background-color:#000;
-  }
+    body{
+      background-color:#fff;
+      font-family: "Tilt Neon", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-variation-settings:
+        "XROT" 0,
+        "YROT" 0;
+    }
+
+    .tenor-sans-regular {
+      font-family: "Tenor Sans", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
 `
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
