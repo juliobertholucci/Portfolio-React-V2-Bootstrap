@@ -1,4 +1,3 @@
-import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styled from 'styled-components';
 import ButtonMenu from '../ButtonMenu';
@@ -25,8 +24,7 @@ const ToggleIconNav = styled(Navbar.Toggle)`
 
 function Header() {
 return(
-  <header>
-    <MenuContainer collapseOnSelect expand="lg" >
+    <MenuContainer sticky="top" collapseOnSelect expand="lg" >
       <Container>
         <LogoMenu/>
           <MobileView>
@@ -44,9 +42,6 @@ return(
         </Navbar.Collapse>
       </Container>
     </MenuContainer>
-  </header>
-
  );
 }
-
 export default Header;
