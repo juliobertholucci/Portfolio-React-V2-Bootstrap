@@ -25,8 +25,13 @@ const Section = styled.section`
 function Section1 (){
     return (
         <Section>
+<<<<<<< HEAD
              <Row className='w-100'> 
                 <Col lg="6"></Col> {/*This container adjust the separation on section 1 (in the case, 50/50)*/}
+=======
+             <Row className='w-100 '> 
+                <Col lg="6"></Col>
+>>>>>>> 9404e9d081155ed8bac016f7cd4cc027aa5e3ba3
                 <TextSection1/>
              </Row>
         </Section>

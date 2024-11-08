@@ -10,6 +10,7 @@ const Section = styled.section`
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-color:#000;
+<<<<<<< HEAD
     background-position: bottom;
     padding:5% 5% 5% 5%;
     align-content:center;
@@ -17,6 +18,11 @@ const Section = styled.section`
     @media (max-width: 1000px) {
         background-size:auto 100%;
     }
+=======
+    background-position: center;
+    padding:5% 5% 5% 5%;
+    align-content:center;
+>>>>>>> 9404e9d081155ed8bac016f7cd4cc027aa5e3ba3
 `
 function Section2(){
     return(
