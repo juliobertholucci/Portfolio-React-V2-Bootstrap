@@ -8,7 +8,6 @@ const AppContainer = styled.div`
   width:100%;
   height:auto;
 `
-
 function App() {
   return (
     <AppContainer>

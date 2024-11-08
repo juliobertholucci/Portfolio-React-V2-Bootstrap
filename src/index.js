@@ -4,8 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createGlobalStyle } from 'styled-components';
-
-
 const GlobalStyle = createGlobalStyle`
     body{
       background-color:#fff;
@@ -25,7 +23,6 @@ const GlobalStyle = createGlobalStyle`
     }
 
 `
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
