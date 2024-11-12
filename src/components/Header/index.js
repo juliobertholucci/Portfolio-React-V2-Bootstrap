@@ -13,7 +13,7 @@ const MenuContainer = styled(Navbar)`
     background-color:#000;
     min-height:12vh;
     border-radius: 0px 0px 30px 30px;
-    z-index:1;
+    z-index:10;
 `
 const ToggleIconNav = styled(Navbar.Toggle)`
   background: linear-gradient(to right, #3281FF, #1E4D99);
