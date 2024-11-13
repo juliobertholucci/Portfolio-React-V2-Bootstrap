@@ -5,14 +5,15 @@ import styled from 'styled-components';
 import Section2Background from '../../images/Section2-Background.png';
 const Section = styled.section`
     max-width:100%;
-    height:60vh;
+    height:70vh;
     background-image:url("${Section2Background}");
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-color:#000;
     background-position: bottom;
     padding:5% 5% 5% 5%;
-    align-content:center;
+    display:flex;
+    align-items:center;
 
     @media (max-width: 1000px) {
         background-size:auto 100%;
