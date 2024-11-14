@@ -19,7 +19,7 @@ const CustomCarousel = styled(Carousel)`
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    z-index: 10;
+    z-index: 1;
     background-color: #000;
     height: 50px;
     width: 50px;

@@ -5,10 +5,10 @@ import CarouselMobile from '../PortfolioCarouselMobile';
 import ButtonRedirect from '../ButtonGenerator';
 const Section = styled.section`
   max-width: 100%;
-  height: 80vh;
+  height: 100vh;
   background-color: #000;
   background-position: bottom;
-  padding: 0% 5% 0% 5%;
+  padding: 0% 5% 5% 5%;
   display: grid; /* Define a Section como um grid */
   grid-template-rows: auto 1fr auto; /* Divide a Section em 3 linhas */
   align-items: center; /* Centraliza verticalmente */
@@ -27,8 +27,7 @@ const Text = styled.h1`
     margin-bottom: 1.5rem;
   }
 `;
-
-function MyCarousel() {
+function Section5() {
   return (
     <Section>
       <Text>PORTFÓLIO</Text>
@@ -40,5 +39,4 @@ function MyCarousel() {
     </Section>
   );
 }
-
-export default MyCarousel;
+export default Section5;

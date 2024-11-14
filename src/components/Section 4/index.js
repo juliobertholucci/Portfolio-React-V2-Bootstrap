@@ -15,8 +15,9 @@ const Section = styled.section`
     }
 `
 const Video = styled.iframe`
-    width:100%;
+    width:75%;
     height:75%;
+    border-radius:30px;
     box-shadow: 0 0 10px rgba(50, 129, 255, 1);
     @media (max-width: 1000px) {
         width:100%;
