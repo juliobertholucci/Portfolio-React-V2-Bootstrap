@@ -28,14 +28,14 @@ return(
       <Container>
         <LogoMenu/>
           <MobileView>
-              <ButtonMenu className='w-25'>CONTRATE</ButtonMenu>
+              <ButtonMenu content='Contrate' className='w-25'/>
           </MobileView>
         <ToggleIconNav aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="m-auto menuFontStyle">
             <OptionsMenu/>
             <BrowserView>
-              <ButtonMenu/>
+              <ButtonMenu content='CONTRATE'/>
             </BrowserView>
           </Nav>
           <IconsMenu/>

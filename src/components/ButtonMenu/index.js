@@ -17,9 +17,9 @@ const ButtonNav = styled(Nav.Link)`
       margin-left:4em;
     }
 `
-function ButtonMenu(){
+function ButtonMenu({content}){
     return (
-        <ButtonNav href="#hiring">CONTRATE</ButtonNav>
+        <ButtonNav>{content}</ButtonNav>
     );
 }
 export default ButtonMenu;
