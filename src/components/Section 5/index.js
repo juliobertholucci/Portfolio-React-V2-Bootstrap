@@ -29,8 +29,8 @@ const Text = styled.h1`
 `;
 function Section5() {
   return (
-    <Section>
-      <Text>PORTFÓLIO</Text>
+    <Section >
+      <Text id='portfolio'>PORTFÓLIO</Text>
       <div> {/* Container para o carousel */}
         <CarouselDesktop />
         <CarouselMobile />

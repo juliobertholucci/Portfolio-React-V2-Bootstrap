@@ -34,9 +34,11 @@ const IconNav = styled(FontAwesomeIcon)`
                         <Col><IconNav icon={faLinkedin}/></Col>
                     </Row>
                 </MobileView>
-                <Nav.Item><IconNav icon={faSquareGithub}/></Nav.Item>
-                <Nav.Item><IconNav icon={faSquareBehance}/></Nav.Item>
-                <Nav.Item><IconNav icon={faLinkedin}/></Nav.Item>
+                <BrowserView>
+                    <Nav.Item href='https://github.com/juliobertholucci' target='_blank' as="a"><IconNav icon={faSquareGithub}/></Nav.Item>
+                    <Nav.Item href='https://www.behance.net/juliobertholucci' target='_blank' as="a"><IconNav icon={faSquareBehance}/></Nav.Item>
+                    <Nav.Item href='https://www.linkedin.com/in/juliobertholucci/' target='_blank' as="a"><IconNav icon={faLinkedin}/></Nav.Item>
+                </BrowserView>
             </Nav>
         );
     }

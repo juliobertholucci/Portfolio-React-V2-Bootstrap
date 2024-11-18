@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import {Row, Col} from 'react-bootstrap';
 const IconBackground = styled.div`
     background-color:#000;
-    z-index:10;
     border-radius:50%;
     width:90px !important;
     height:80px !important;

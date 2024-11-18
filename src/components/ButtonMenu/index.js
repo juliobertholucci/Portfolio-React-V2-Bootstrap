@@ -17,9 +17,9 @@ const ButtonNav = styled(Nav.Link)`
       margin-left:4em;
     }
 `
-function ButtonMenu({content}){
+function ButtonMenu({content, link}){
     return (
-        <ButtonNav>{content}</ButtonNav>
+        <ButtonNav href={link}>{content}</ButtonNav>
     );
 }
 export default ButtonMenu;

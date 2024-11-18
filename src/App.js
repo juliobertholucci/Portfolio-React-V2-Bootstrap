@@ -7,6 +7,7 @@ import Section3 from './components/Section 3';
 import Section4 from './components/Section 4';
 import Section5 from './components/Section 5';
 import Section6 from './components/Section 6';
+import Section7 from './components/Section 7';
 import styled from 'styled-components';
 //import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detect';
 const AppContainer = styled.div`
@@ -23,6 +24,7 @@ function App() {
       <Section4/>
       <Section5/>
       <Section6/>
+      <Section7/>
     </AppContainer>
   );
 }

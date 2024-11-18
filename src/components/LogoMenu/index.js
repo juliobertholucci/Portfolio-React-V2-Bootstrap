@@ -11,7 +11,7 @@ const LogoNav = styled(Navbar.Brand)`
 `
 function LogoMenu (){
     return(
-        <LogoNav href="#home"><img className='w-100' src={logotipo}/></LogoNav>
+        <LogoNav href="#top"><img className='w-100' src={logotipo}/></LogoNav>
     );
 }
 

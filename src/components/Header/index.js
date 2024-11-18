@@ -35,7 +35,7 @@ return(
           <Nav className="m-auto menuFontStyle">
             <OptionsMenu/>
             <BrowserView>
-              <ButtonMenu content='CONTRATE'/>
+              <ButtonMenu link='https://api.whatsapp.com/send?phone=5535998705890&text=Ol%C3%A1%20Julio!%20Visitei%20seu%20portf%C3%B3lio%20e%20me%20interesso%20em%20seus%20servi%C3%A7os.%20Podemos%20falar?' content='CONTRATE'/>
             </BrowserView>
           </Nav>
           <IconsMenu/>

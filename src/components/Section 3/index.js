@@ -15,7 +15,7 @@ const Section = styled.section`
 `
 function Section3 (){
     return(
-        <Section>
+        <Section id='habilidades'>
                 <SkillCardsDesktop/>
                 <SkillCardsMobile/>
         </Section>

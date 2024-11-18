@@ -13,6 +13,9 @@ const ButtonStyle = styled(Button)`
       background: linear-gradient(45deg, #1E4D99, #3281FF);
       color:#fff;
     }
+    @media (max-width: 1000px) {
+        width: 50%;
+    }
 `;
 function ButtonRedirect ({link, context}){
     return(

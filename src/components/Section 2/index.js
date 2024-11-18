@@ -21,7 +21,7 @@ const Section = styled.section`
 `
 function Section2(){
     return(
-        <Section>
+        <Section id='sobre'>
             <TextSection2/>
         </Section>
     );
